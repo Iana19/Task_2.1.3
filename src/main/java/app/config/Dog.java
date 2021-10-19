@@ -1,13 +1,13 @@
-package app.model;
+package app.config;
 
+import app.model.Animal;
 import org.springframework.stereotype.Component;
 
 @Component
-public class Cat extends Animal {
+public class Dog extends Animal {
 
     @Override
     public String toString() {
-
-        return "Im a Cat";
+        return "I'm a dog";
     }
 }
